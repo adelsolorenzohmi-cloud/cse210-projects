@@ -3,14 +3,14 @@ using System;
 class Program
 {
     /*
-    Exceeding Requirements: File Error Handling (Criterion 10)
+    Exceeding Requirements: File Error Handling
     
     To improve the program's robustness, explicit file error handling has been 
     implemented in the Journal class methods (LoadFromFile and SaveToFile).
 
     Specific improvements include:
     1.  Using a try-catch block for the SaveToFile method to catch general 
-        IO exceptions (e.g., permission issues).
+        IO exceptions
     2.  Using a more specific try-catch block in LoadFromFile to handle 
         FileNotFoundException, providing a clear, user-friendly message 
         when the specified file doesn't exist.
